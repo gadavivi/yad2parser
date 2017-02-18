@@ -8,5 +8,6 @@ setup(name='yad2parser',
       author='Gad avivi',
       author_email='gadavivi@gmail.com',
       packages=find_packages(),
-      install_requires=['request']
+      install_requires=['request',
+                        'selenium']
      )
